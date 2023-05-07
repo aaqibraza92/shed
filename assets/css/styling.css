@@ -1,0 +1,31 @@
+body,html{
+    font-family: 'Poppins', sans-serif;
+}
+.headerOverlap {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  :root {
+    --colorGrey: #959494;
+    --colorBlack: #2D2D2D;
+    --colorRed: #E10000;
+  }
+  .mynav a:hover,.mynav a.active{
+    color: var(--colorGrey);
+  }
+  .h100vh{
+    height: 100vh;
+  }
+  .banner{
+    top: 0px;
+  }
+  .myFooter {
+    max-height: 320px;
+    overflow: hidden;
+  }
+  .bTop {
+    border-top: 1px solid #fff;
+    padding-top: 38px;
+    margin-top: 40px;
+  }
