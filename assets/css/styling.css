@@ -4,7 +4,7 @@ body,html{
 .headerOverlap {
     position: absolute;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
   }
   :root {
     --colorGrey: #959494;
@@ -28,4 +28,83 @@ body,html{
     border-top: 1px solid #fff;
     padding-top: 38px;
     margin-top: 40px;
+  }
+  .posBorder{
+    border-top: 1px solid #ddd;
+  }
+  .pos::before{
+    background: #ddd;
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100px;
+    height: 1px;
+  }
+
+  .greyishGrad{
+background: #f5f5f5; /* Old browsers */
+background: -moz-linear-gradient(top,  #f5f5f5 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f5f5f5 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f5f5f5 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+  }
+
+  .middle{
+    margin-top: -70px;
+  }
+  .mnLine{
+    line-height: 64px;
+  }
+  .shortGrey {
+    background: #ddd;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+  }
+  .innerHeader{height: 77px;
+    overflow: hidden;}
+
+    .owl-carousel .owl-nav.disabled {
+      display: flex !important;
+      justify-content: space-between;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+  }
+  .owl-carousel .owl-nav.disabled .owl-prev {
+      position: relative;
+      left: -37px;
+  }
+  .owl-carousel .owl-nav.disabled .owl-next {
+      position: relative;
+      right: -37px;
+  }
+
+  .abtGradient{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+33,959494+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 33%, #959494 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 33%,#959494 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#ffffff 33%,#959494 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#959494',GradientType=0 ); /* IE6-9 */
+
+
+  }
+  button.owl-dot {
+    border: 1px solid #3c3c3c !important;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+  }
+  button.owl-dot.active {
+    background: #3c3c3c !important;
+  }
+
+  .titleGreyBg{
+    background: #D9D9D9;
+  }
+  .grayscale {
+    filter: grayscale(100%);
   }

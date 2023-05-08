@@ -42,6 +42,12 @@ a,button,input{
   -o-border-radius: 8px;
   border-radius: 8px;
 }
+.radius19 {
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  -o-border-radius: 19px;
+  border-radius: 19px;
+}
 .radius100{
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
