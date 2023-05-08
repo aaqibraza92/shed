@@ -26,14 +26,74 @@
   </head>
 
   <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <nav class="text-center mynav">
+              <ul class="noUl">
+                <li>
+                  <a
+                    href="index.html"
+                    class="colorBlack fs20 fw400 active transition mr20"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="about.html"
+                    class="colorBlack fs20 fw400 transition mr20"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="schedule.html"
+                    class="colorBlack fs20 fw400 transition mr20"
+                    >Schedule</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="colorBlack fs20 fw400 transition"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+
+    
     <header class="headerOverlap">
       <div class="container">
         <div class="row align-items-center pt15 pb15">
-          <div class="col-lg-2">
-            <a href="/" class="fs30 fw700 colorWhite logo"> SHED 12 </a>
+          <div class="col-lg-2 col-md-3 col-10">
+            <a href="index.html" class="fs30 fw700 colorWhite logo"> SHED 12 </a>
           </div>
-          <div class="col-lg-8">
-            <nav class="text-center mynav">
+          <div class="col-lg-8 col-md-9 col-2">
+            
+            <button class="noBtn d-md-none d-lg-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <g id="Group_63279" data-name="Group 63279" transform="translate(-325 -27)">
+                  <circle id="Ellipse_13595" data-name="Ellipse 13595" cx="14" cy="14" r="14" transform="translate(325 27)" fill="#fff"/>
+                  <g id="Group_63278" data-name="Group 63278" transform="translate(0.793 1.5)">
+                    <line id="Line_489" data-name="Line 489" x2="14" transform="translate(331.207 34.5)" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.5"/>
+                    <line id="Line_490" data-name="Line 490" x2="10" transform="translate(333.207 39.5)" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.5"/>
+                    <line id="Line_491" data-name="Line 491" x2="14" transform="translate(331.207 44.5)" fill="none" stroke="#111" stroke-linecap="round" stroke-width="1.5"/>
+                  </g>
+                </g>
+              </svg>
+              
+            </button>
+            <nav class="text-center mynav d-xs-none">
               <ul class="noUl d-flex justify-content-center flex-wrap">
                 <li>
                   <a
@@ -67,9 +127,11 @@
             </nav>
           </div>
 
-          <div class="col-lg-2"></div>
+          <div class="col-lg-2 d-md-none"></div>
         </div>
       </div>
+
+
     </header>
 
     <main>
@@ -79,7 +141,7 @@
         <img src="././assets/Img/banner.jpg" alt="" class="w-100 imgCover" />
       </section>
 
-      <section class="pt80 pb80 bgWhite">
+      <section class="pt60 pb80 bgWhite">
         <div class="container">
           <h1 class="fs60 fw600 colorBlack text-center mb45">
             We'd Love To Hear From You
