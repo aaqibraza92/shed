@@ -198,3 +198,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   body {
     overflow-x: hidden;
   }
+  .lh40 {
+    line-height: 40px;
+  }
